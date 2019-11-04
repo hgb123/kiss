@@ -326,13 +326,21 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-body,
+/* body,
 button,
 input,
 select,
 textarea {
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro",
     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+} */
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 code,
