@@ -17,6 +17,8 @@
     <meta property='og:image' content='https://www.gravatar.com/avatar/
         {{- . | md5 -}}
         ?s=256'>
+{{- else -}}
+    <meta property='og:image' content='/images/group.jpg'>
 {{- end -}}
 
 {{- with .Params.audios -}}
